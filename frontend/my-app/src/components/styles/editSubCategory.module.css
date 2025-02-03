@@ -1,0 +1,163 @@
+.editCategoryContainer {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 40px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  
+  .form{
+    margin-left: 40px;
+  }
+  
+  .header > h1 {
+    font-size: 26px;
+    margin-top: 16px;
+  }
+  
+  .backButton {
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .formGroup {
+    margin: 20px 0;
+  }
+  
+  .imageUploadSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagePreview {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .uploadButton {
+    display: inline-block;
+  }
+  
+  .actionButtons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+  }
+  
+  .cancelButton {
+    margin-left: 10px;
+    border: 1px solid;
+    padding: 0px 30px;
+  }
+  
+  .saveButton {
+    padding: 0px 40px;
+    margin-left: 10px;
+    color: white;
+    background-color: #662671;
+  }
+  
+  .name,
+  .sequence {
+    position: relative;
+    margin-bottom: 20px;
+    width: 28%;
+    margin-right: 50px;
+  }
+.status{
+    
+    position: relative;
+    margin-bottom: 20px;
+    width: 28%;
+    margin-left: 70px;
+}
+  .ssequence .status{
+    margin-top: -40px;
+  }
+
+  .name label,
+  .status label,
+  .sequence label {
+    position: absolute;
+    top: -12px;
+    left: 12px;
+    font-size: 12px;
+    color: #333;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    background-color: white;
+    padding: 4px;
+    font-weight: 500;
+  }
+  
+  .name input,
+  .status input,
+  .sequence input {
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .selstatus{
+    width: 220px;
+    border-radius: 4px;
+    height: 37.5px;
+    margin-right: 80px;
+    margin-top: 0px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    outline: none;
+  }
+  
+  .name input:focus + label,
+  .sequence input:focus + label {
+    top: -20px;
+    font-size: 10px;
+  }
+  
+  .iconLabel {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .imagePreview {
+    position: relative;
+    width: 15% !important;
+    top: 125px;
+    left: 20px;
+  }
+  
+  .inputs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 50px; */
+    /* border: 1px solid; */
+    height: 160px;
+    margin-bottom: -40px;
+    margin-top: -0px;
+  }
+  
+  .inputs:nth-child(2){
+      margin-left: 20px;
+  }
+  
+  .uploadButton{
+      position: relative;
+      top: 30px;
+      left: -560px;
+  }

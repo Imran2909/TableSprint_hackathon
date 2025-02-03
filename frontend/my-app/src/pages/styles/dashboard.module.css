@@ -1,0 +1,174 @@
+.outr {
+  width: 51.7lh;
+  margin: -32px 0px 10px -64px;
+  padding-top: 4px;
+  margin-right: -10px;
+}
+.prodTop {
+  margin-top: 2px;
+  border: 2px solid red;
+
+}
+
+.catTop {
+  margin-top: 20px;
+}
+
+.cont {
+  display: flex;
+  /* border: 1px solid black; */
+  height: 88.1vh;
+  margin-bottom: -40px;
+}
+
+.box {
+  width: 76%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.main {
+  width: 97%;
+  height: 66%;
+  margin: auto;
+  align-items: center;
+  align-items: center;
+  align-content: center;
+  margin-top: -10px;
+}
+
+.main img {
+  width: 45%;
+  height: 45%;
+  margin: auto;
+  margin-top: -90px;
+  margin-left: 0px;
+}
+
+.main p {
+  /* margin-left: 100px; */
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.inp {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inp input {
+  border: 0.5px solid rgb(194, 192, 190);
+  outline: 0.5px solid rgb(194, 192, 190);
+  width: 33%;
+  height: 33px;
+  padding: 4px 11px;
+  border-radius: 4px;
+}
+
+.inps {
+  display: flex;
+  flex-direction: column;
+}
+
+.inps button {
+  width: 120px;
+  background-color: #662671;
+  margin-top: 22px;
+  color: white;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+}
+
+.buts {
+  margin: auto;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box3 {
+  /* width: 40%; */
+  /* margin: auto; */
+  margin: auto;
+  margin-top: 50px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  width: 140%;
+  margin: auto;
+}
+
+.form1 div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.form1 div input {
+  margin-top: 10px;
+}
+.box3 h2 {
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 90px;
+}
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+.modalContent h3{
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  padding-left: 20px;
+  width: 120px;
+  margin-left: 40px;
+}
+
+.cancelButton,
+.deleteButton {
+  border: none;
+  cursor: pointer;
+}
+
+.cancelButton {
+  background-color: #ccc;
+}
+.editButton {
+  border: 1px solid;
+}
+.deleteButton {
+  margin-left: 15px;
+  background-color: #e53e3e;
+  color: white;
+}

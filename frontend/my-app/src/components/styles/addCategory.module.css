@@ -1,0 +1,203 @@
+.addCategoryContainer {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+ 
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.cheader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cheader > h1 {
+  font-size: 26px;
+  margin: 50px 0px 0px 0px;
+}
+
+.header > h1 {
+  font-size: 26px;
+  margin-top: 16px;
+}
+
+.cbackButton {
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 50px 0px 0px 26px;
+}
+.backButton {
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.cform{
+  position: relative;
+  /* border: 1px solid; */
+  margin-top: -20px;
+  top: -50px;
+  left: 20px;
+}
+
+.formGroup {
+  margin: 20px 0;
+}
+
+.imageUploadSection {
+  display: flex;
+  align-items: center;
+}
+
+.imagePreview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.uploadButton {
+  display: inline-block;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 120px;
+}
+
+.cancelButton {
+  margin-left: 10px;
+  border: 1px solid;
+  padding: 0px 30px;
+}
+.saveButton {
+  padding: 0px 40px;
+  margin-left: 10px;
+  color: white;
+  background-color: #662671;
+}
+.name {
+  position: relative; /* Allows positioning of the label inside */
+  margin-bottom: 20px; /* Space between fields */
+  width: 28%;
+}
+.ccategory {
+  position: relative; /* Allows positioning of the label inside */
+  margin-bottom: 20px; /* Space between fields */
+  width: 28%;
+  top: 79px;
+  left: 630px;
+}
+
+.selectSubCategory {
+  padding-left: 8px;
+  margin-bottom: 20px; /* Space between fields */
+  width: 100%;
+  top: 78px;
+  left: 292px;
+  height: 37px;
+  border: 1px solid #ccc; /* Border around the input */
+  border-radius: 4px;
+  outline: none;
+  color: #333;
+}
+
+.ccategory label {
+  position: absolute; /* Position the label inside the input container */
+  top: -12px; /* Align it to the top of the container */
+  left: 12px; /* Align it to the left */
+  font-size: 12px; /* Set the label font size */
+  color: #333; /* Adjust color if needed */
+  pointer-events: none; /* Prevents interaction with the label */
+  transition: all 0.3s ease; /* Smooth transition for label movement */
+  background-color: white;
+  padding: 4px;
+  font-weight: 500;
+  width: 100px;
+}
+
+.name label {
+  position: absolute; /* Position the label inside the input container */
+  top: -12px; /* Align it to the top of the container */
+  left: 12px; /* Align it to the left */
+  font-size: 12px; /* Set the label font size */
+  color: #333; /* Adjust color if needed */
+  pointer-events: none; /* Prevents interaction with the label */
+  transition: all 0.3s ease; /* Smooth transition for label movement */
+  background-color: white;
+  padding: 4px;
+  font-weight: 500;
+}
+
+.name input {
+  width: 100%; /* Make input take full width */
+  padding: 6px 10px; /* Padding for the input */
+  border: 1px solid #ccc; /* Border around the input */
+  border-radius: 4px;
+  outline: none; /* Rounded corners */
+}
+
+.name input:focus + label {
+  top: -20px; /* Move label up when input is focused */
+  font-size: 10px; /* Optionally reduce font size when focused */
+}
+
+.sequence {
+  position: relative; 
+  margin-bottom: 20px; 
+  width: 30%;
+  top: -56.5px;
+  left: 300px;
+}
+
+.sequence label {
+  position: absolute;
+  top: -12px; 
+  left: 12px;
+  font-size: 12px; 
+  color: #333; 
+  pointer-events: none;
+  transition: all 0.3s ease; 
+  background-color: white;
+  padding: 4px;
+  font-weight: 500;
+}
+
+.sequence input {
+  width: 100%; /* Make input take full width */
+  padding: 6px 10px; /* Padding for the input */
+  border: 1px solid #ccc; /* Border around the input */
+  border-radius: 4px;
+  outline: none; /* Rounded corners */
+}
+
+.ccategory select:focus + label {
+  top: -20px; /* Move label up when input is focused */
+  font-size: 10px; /* Optionally reduce font size when focused */
+}
+.sequence input:focus + label {
+  top: -20px; /* Move label up when input is focused */
+  font-size: 10px; /* Optionally reduce font size when focused */
+}
+
+.iconLabel {
+  position: relative;
+  cursor: pointer;
+  left: -250px;
+}
+
+.imagePreview {
+  position: relative;
+  top: 25px;
+  left: -300px;
+  width: 15% !important;
+}
